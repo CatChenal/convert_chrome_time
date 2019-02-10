@@ -25,7 +25,7 @@ Timezone-aware date to use (created): 2019-01-01 12:45:30.150000+00:00
 Date (2019-01-01 12:45:30.150000+00:00) in "chrome timestamp": 13190820330150000
 ```
 
-### To get a Unix timestamp, change the epoc year to 1970:
+### To get a Unix timestamp, change the epoch year to 1970:
 ```python
 dtz_ts_nix = date_to_chrometime(dtz, epoch_yr=1970)
 print('Date ({}) in Unix timestamp: {}'.format(dtz, dtz_ts_nix))
